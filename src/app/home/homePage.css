@@ -1,0 +1,35 @@
+.responsive-row {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin: 30px 15%;
+  height: 85vh;
+}
+.left-side {
+  flex: 1;
+}
+.right-side {
+  flex: 1;
+  margin-left: 30px;
+}
+.text-container {
+  color: darkgray;
+  font-size: larger;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1cm;
+  letter-spacing: -0.96px;
+  justify-content: center;
+}
+.text-title {
+  color: #2385dd;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.responsive-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
