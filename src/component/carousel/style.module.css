@@ -1,0 +1,36 @@
+/* MyCarousel.module.css */
+
+.carouselContainer {
+}
+
+.carouselItem {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.carouselImage {
+  border-radius: 15px;
+}
+.navigationButtons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.button {
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 100px;
+}
+
+/* You can add more styling as needed */

@@ -2,9 +2,11 @@ import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
 import image_1 from "@/images/image_1.jpg";
 import "./homePage.css";
+import MyCarousel from "@/component/carousel/carousel";
 export default function HomePage() {
   return (
     <>
+      <MyCarousel></MyCarousel>
       <div className="responsive-row">
         <div className="left-side">
           {" "}
