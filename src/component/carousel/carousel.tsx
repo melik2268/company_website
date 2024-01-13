@@ -59,21 +59,25 @@ export default function MyCarousel() {
           onClick={handlePrev}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.1)";
+            e.currentTarget.style.background = "#f5f5f5";
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.style.background = "transparent";
           }}
         >
-          <MdArrowBackIos />
+          <MdArrowBackIos style={{ marginLeft: "5px" }} />
         </button>
         <button
           className={styles.button}
           onClick={handleNext}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.1)";
+            e.currentTarget.style.background = "#f5f5f5";
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "scale(1)";
+            e.currentTarget.style.background = "transparent";
           }}
         >
           <MdArrowForwardIos />

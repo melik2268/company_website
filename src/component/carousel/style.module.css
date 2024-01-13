@@ -13,6 +13,8 @@
 }
 .carouselImage {
   border-radius: 15px;
+  width: -webkit-fill-available;
+  max-width: 1300px;
 }
 .navigationButtons {
   position: absolute;
@@ -31,6 +33,13 @@
   font-size: 30px;
   cursor: pointer;
   margin: 0 100px;
+  transform: scale(1);
+
+  border-radius: 50%;
+  width: 60px;
+  padding: auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* You can add more styling as needed */
